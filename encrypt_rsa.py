@@ -19,7 +19,7 @@ def encrypt_data(data, public_key):
     return encoded_encrypted_data
 
 if __name__ == "__main__":
-    public_key = load_public_key("J:\PYTHON\Encryption_RSA\public.pem")  # Load existing public key
+    public_key = load_public_key("public.pem")  # Load existing public key
     
     data = input("Enter data to encrypt: ")  # Get data from user
     encrypted = encrypt_data(data, public_key)
