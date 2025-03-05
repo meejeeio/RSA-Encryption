@@ -22,7 +22,7 @@ def decrypt_data(private_key):
     return decoded_decrypted_data
 
 if __name__ == "__main__":
-    private_key = load_private_key("J:\PYTHON\Encryption_RSA\private.pem")  # Load existing private key
+    private_key = load_private_key("private.pem")  # Load existing private key
     
     try:
         decrypted = decrypt_data(private_key)
